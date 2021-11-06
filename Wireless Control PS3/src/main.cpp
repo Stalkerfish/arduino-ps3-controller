@@ -20,11 +20,11 @@ void loop() {
 
     if(incomingByte == 'H'){
       digitalWrite(LED_BUILTIN, HIGH);
-      Serial.print("LED LIGADO!");
+      Serial.println("LED LIGADO!");
     }
     if (incomingByte == 'L'){
       digitalWrite(LED_BUILTIN, LOW);
-      Serial.print("LED DESLIGADO!");
+      Serial.println("LED DESLIGADO!");
     }
     
   }
